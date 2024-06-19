@@ -1,71 +1,59 @@
-# Getting Started with Create React App
+# JC&ME
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+JC&ME is an application that accepts syllabus text and populates the user's Google Calendar with the extracted dates.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- ReactJS
+- OpenAI
+- Google Calendar API
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Extracts dates from the text of a syllabus.
+- Populates Google Calendar with the extracted dates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/JC-ME.git
+    cd JC-ME
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+3. Set up environment variables:
+    Create a `.env` file in the root of the project and add your API keys:
+    ```
+    REACT_APP_GPT=your_openai_api_key
+    ```
+4. Set up Supabase and Google Calendar api 
+    - A Supabase account. Sign up at [Supabase](https://supabase.com/).
+    - A Google Cloud account with access to the Google Calendar API. Set it up at [Google Cloud Console](https://console.cloud.google.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Start the development server:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+2. Open your browser and navigate to `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Upload the text of a syllabus. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Review the extracted dates and approve to add them to your Google Calendar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Thanks to OpenAI for their amazing language model.
+- Thanks to Google for their powerful Calendar API.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
