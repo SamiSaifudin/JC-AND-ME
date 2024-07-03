@@ -49,6 +49,10 @@ JC&ME is an application that accepts syllabus text and populates the user's Goog
 
 4. Review the extracted dates and approve to add them to your Google Calendar.
 
+## Video Demo
+
+[Demo](https://drive.google.com/file/d/11kKiwgdUJi5ukdRs-6D_WBGLUh-vo6LR/view?usp=sharing) 
+
 ## Acknowledgements
 
 - Thanks to OpenAI for their amazing language model.
